@@ -140,3 +140,70 @@ body {
   width: 36px;
   height: 36px;
 }
+.section {
+  margin: 150px 0;
+}
+.section-title {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.steps {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+.steps-item {
+  max-width: 330px;
+}
+.steps-num {
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: rgba(92, 142, 230, 1);
+  display: flex;
+  align-items: center;
+}
+.steps-num::after {
+  content: '';
+  height: 1px;
+  background: rgba(235, 235, 240, 1);
+  width: 100%;
+  margin-left: 30px;
+}
+.steps-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.steps-text {
+  color: rgba(130, 138, 153, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 10px;
+  margin-bottom: 27px;
+}
+.steps-link {
+  display: flex;
+  align-items: center;
+  color: rgba(92, 142, 230, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+.steps-link:before {
+  content: '';
+  background: rgba(92, 142, 230, 1);
+  height: 1px;
+  width: 40px;
+  margin-right: 20px;
+}
