@@ -19,11 +19,16 @@ body {
   align-items: center;
   color: #fff;
   height: 94px;
-  position: relative; /* задаём для того, чтобы вылез вперед в слоях и отличался от заливки */
+  position: fixed; /* задаём для того, чтобы шапка прилипла и прокручивалась вместе со страницей */
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 /* делаем чтобы блок header был во весь экран через "vh" */
 .header {
+  padding: 94px;
   min-height: 100vh;
 }
 /* ставим фоновое изображение */
