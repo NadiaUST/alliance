@@ -29,7 +29,11 @@ body {
 }
 .navbar-light {
   background-color: #fff;
-  color: #292D33;
+  color: #292d33;
+}
+.navbar-light .header-logo-path {
+  /* когда navbar-light, найди header-logo-path и сделай ему заливку */
+  fill: #292d33;
 }
 /* делаем чтобы блок header был во весь экран через "vh" */
 .header {
@@ -180,7 +184,7 @@ body {
   align-items: center;
 }
 .steps-num::after {
-  content: '';
+  content: "";
   height: 1px;
   background: rgba(235, 235, 240, 1);
   width: 100%;
@@ -211,7 +215,7 @@ body {
   text-decoration: none;
 }
 .steps-link:before {
-  content: '';
+  content: "";
   background: rgba(92, 142, 230, 1);
   height: 1px;
   width: 40px;
