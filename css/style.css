@@ -47,7 +47,7 @@ body {
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center -280px;
   position: relative; /* задаём родителю */
 }
 /* задаём темную плашку для фона, через псевдоэлемент */
