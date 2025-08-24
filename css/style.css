@@ -353,6 +353,7 @@ body {
     height: 1px;
     background-color: #fff;
     width: 100%;
+    transition: transform 0.2s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -451,5 +452,14 @@ body {
   .mobile-icons-vk {
     margin-right: 15px;
     text-decoration: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(12px);
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-12px);
   }
 }
