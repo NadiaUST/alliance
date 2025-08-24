@@ -367,6 +367,7 @@ body {
     display: block;
     fill: #fff;
   }
+  /* Стили к адаптиву мобильному меню, которое появляется при нажатии на кнопку */
   .mobile-menu {
     display: none; /* по умолчанию скрыто */
     position: fixed;
@@ -401,11 +402,15 @@ body {
     line-height: 160%;
     color: #292d33;
   }
-  .mobile-submenu {
+  .mobile-sub-menu {
+    text-decoration: none;
     list-style-type: none;
     padding: 0;
     padding-left: 1rem;
     margin-top: 1rem;
+  }
+  .mobile-sub-menu-item {
+    list-style-type: none;
   }
   .mobile-submenu-link {
     text-decoration: none;
@@ -439,5 +444,12 @@ body {
     font-size: 14px;
     line-height: 160%;
     color: #292d33;
+  }
+  .mobile-icons {
+    margin-top: 24px;
+  }
+  .mobile-icons-vk {
+    margin-right: 15px;
+    text-decoration: none;
   }
 }
