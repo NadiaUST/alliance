@@ -43,3 +43,16 @@ mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault(); // отключаем стандартный переход по ссылке
   menu.classList.contains("is-open") ? closeMenu() : openMenu(); // если меню имеет класс is-open, то закрой это меню, а если оно закрыто, то открой это меню
 });
+
+// Подключение слайдера
+const swiper = new Swiper(".swiper", {
+  speed: 400, // управление с помощью API (скорость)
+  autoHeight: true, // авто-высота слайдов
+  loop: true, // прокрутка слайдов бесконечно
+  slidesPerView: 5, // количество слайдов на экране
+  navigation: {
+    // подключение кнопок навигации
+    nextEl: ".swiper-button-next", // вперед листает слайд
+    prevEl: ".swiper-button-prev", // назад листает слайд
+  },
+});
