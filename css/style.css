@@ -463,3 +463,30 @@ body {
     transform: rotate(-45deg) translateY(-12px);
   }
 }
+@media (max-width: 880px) {
+  html {
+    overflow: hidden;
+  }
+  .container {
+    max-width: 40rem;
+    margin-left: 5rem;
+  }
+  .header-title {
+    font-size: 4rem;
+  }
+  .header-content {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width: 703px) {
+  html {
+    overflow: hidden;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .header-title {
+    font-size: 4rem;
+  }
+}
