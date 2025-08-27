@@ -49,10 +49,29 @@ const swiper = new Swiper(".swiper", {
   speed: 400, // управление с помощью API (скорость)
   autoHeight: true, // авто-высота слайдов
   loop: true, // прокрутка слайдов бесконечно
-  slidesPerView: 5, // количество слайдов на экране
+  slidesPerView: 1, // количество слайдов на экране
   navigation: {
     // подключение кнопок навигации
-    nextEl: ".swiper-button-next", // вперед листает слайд
-    prevEl: ".swiper-button-prev", // назад листает слайд
+    nextEl: ".slider-button-next", // вперед листает слайд
+    prevEl: ".slider-button-prev", // назад листает слайд
+  },
+  breakpoints: {
+    // когда окно шире, чем >= 576px
+    576: {
+      slidesPerView: 2,
+      centeredSlides: true, // делает слайды по центру
+    },
+    // когда окно шире, чем >= 768px
+    768: {
+      slidesPerView: 3,
+    },
+    // когда окно шире, чем >= 1024px
+    1024: {
+      slidesPerView: 4,
+    },
+    // когда окно шире, чем >= 1200px
+    1200: {
+      slidesPerView: 5,
+    },
   },
 });

@@ -50,7 +50,6 @@ body {
 /* делаем чтобы блок header был во весь экран через "vh" */
 .header {
   padding: 5.875rem 0 0 0;
-  min-height: 100vh;
 }
 /* ставим фоновое изображение */
 .header-image {
@@ -180,18 +179,29 @@ body {
 }
 .header-features-item {
   padding: 2.1875rem 3.4375rem 0.6875rem 3.4375rem;
+  min-height: 100%;
   border: 1px solid rgba(235, 235, 240, 0.2);
   width: 21.875rem;
-}
-/* выключаем у последнего элемента отступ справа */
-.header-features-item:not(:last-child) {
-  border-right: none;
 }
 .header-features-text {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 160%;
   margin-top: 1.375rem;
+}
+.slider-buttons {
+  display: none;
+  height: 44px;
+}
+.slider-button-prev,
+.slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .header-features-img {
   width: 2.25rem;
@@ -319,6 +329,9 @@ body {
   }
   .navbar-button {
     margin-left: 2rem;
+  }
+  .slider-buttons {
+    display: flex;
   }
 }
 @media (max-width: 1176px) {
