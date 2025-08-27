@@ -59,7 +59,6 @@ const swiper = new Swiper(".swiper", {
     // когда окно шире, чем >= 576px
     576: {
       slidesPerView: 2,
-      centeredSlides: true, // делает слайды по центру
     },
     // когда окно шире, чем >= 768px
     768: {

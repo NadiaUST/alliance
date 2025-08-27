@@ -294,7 +294,7 @@ body {
     background-position: center;
   }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1664px) {
   html {
     font-size: 0.8125rem;
   }
@@ -314,9 +314,9 @@ body {
     margin-right: 2rem;
   }
 }
-@media (max-width: 1340px) {
+@media (max-width: 1550px) {
   .container {
-    max-width: 60rem;
+    max-width: 80rem;
   }
   .header-phone {
     display: none;
@@ -330,16 +330,25 @@ body {
   .navbar-button {
     margin-left: 2rem;
   }
+}
+@media (max-width: 1326px) {
+  .container {
+    max-width: 70rem;
+  }
+  html {
+    font-size: 10x;
+  }
+  .swiper {
+    overflow: hidden;
+  }
   .slider-buttons {
     display: flex;
   }
 }
-@media (max-width: 1176px) {
-  html {
-    font-size: 10px;
+@media (max-width: 1182px) {
+  .container {
+    max-width: 70%;
   }
-}
-@media (max-width: 908px) {
   html {
     font-size: 10px;
   }
@@ -476,28 +485,20 @@ body {
     transform: rotate(-45deg) translateY(-12px);
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 882px) {
   html {
     overflow: hidden;
   }
   .container {
-    max-width: 40rem;
-    margin-left: 5rem;
+    max-width: 60%;
   }
   .header-title {
     font-size: 4rem;
   }
-  .header-content {
-    margin-left: 0;
-    padding-left: 0;
-  }
 }
-@media (max-width: 703px) {
-  html {
-    overflow: hidden;
-  }
+@media (max-width: 716px) {
   .container {
-    max-width: 90%;
+    max-width: 40%;
   }
   .header-title {
     font-size: 4rem;
