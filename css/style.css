@@ -203,6 +203,20 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+.sliderSteps-buttons {
+  display: none;
+}
+.sliderSteps-button-prev,
+.sliderSteps-button-next {
+  height: 100%;
+  background: var(--main, rgba(92, 142, 230, 1));
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .header-features-img {
   width: 2.25rem;
   height: 2.25rem;
@@ -483,6 +497,9 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-12px);
+  }
+  .sliderSteps-buttons {
+    display: flex;
   }
 }
 @media (max-width: 882px) {
