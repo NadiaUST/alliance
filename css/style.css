@@ -209,6 +209,7 @@ body {
 }
 .sliderSteps-buttons {
   display: none;
+  justify-content: end;
 }
 .sliderSteps-button-prev,
 .sliderSteps-button-next {
