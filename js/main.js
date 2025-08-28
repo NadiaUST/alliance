@@ -87,19 +87,15 @@ const swiperSteps = new Swiper(".swiperSteps", {
   breakpoints: {
     // когда окно шире, чем >= 576px
     576: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // когда окно шире, чем >= 768px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     // когда окно шире, чем >= 1024px
     1024: {
-      slidesPerView: 4,
-    },
-    // когда окно шире, чем >= 1200px
-    1200: {
-      slidesPerView: 5,
+      slidesPerView: 3,
     },
   },
 });

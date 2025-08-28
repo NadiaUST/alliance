@@ -203,6 +203,10 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+.swiperSteps {
+  overflow: hidden;
+  max-width: 100%;
+}
 .sliderSteps-buttons {
   display: none;
 }
@@ -343,6 +347,9 @@ body {
   }
   .navbar-button {
     margin-left: 2rem;
+  }
+  .sliderSteps-buttons {
+    display: flex;
   }
 }
 @media (max-width: 1326px) {
@@ -497,9 +504,6 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-12px);
-  }
-  .sliderSteps-buttons {
-    display: flex;
   }
 }
 @media (max-width: 882px) {
