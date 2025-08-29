@@ -50,7 +50,6 @@ mMenuToggle.addEventListener("click", (event) => {
 // Подключение слайдера block feautures
 const swiper = new Swiper(".swiper", {
   speed: 400, // управление с помощью API (скорость)
-  autoHeight: true, // авто-высота слайдов
   slidesPerView: 1, // количество слайдов на экране
   navigation: {
     // подключение кнопок навигации
