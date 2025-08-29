@@ -43,6 +43,9 @@ body {
   /* когда navbar-light, найди header-logo-path и сделай ему заливку */
   fill: #292d33;
 }
+.logo {
+  display: none;
+}
 .logo-svg {
   width: 9.8125rem;
   height: 4.1875rem;

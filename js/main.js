@@ -1,17 +1,20 @@
 // Функция для окрашивания навигации при прокрутке
 const navbar = document.querySelector(".navbar"); //обращение к неизм.константе, чтобы найти класс навбар и поместить в переменную навбар
-const logo = document.querySelector(".logo-svg use"); // создаем константу logo
+const logoLight = document.querySelector(".logo-light"); // создаем константу logoLight
+const logo = document.querySelector(".logo"); // создаем константу logo
 
-// Функция, которая включает светлый режим для адаптивного меню
+// Функция, которая включает светлый режим для адаптивного меню, меняя лого местами
 const lightModeOn = (event) => {
   // включаем светлую функцию
   navbar.classList.add("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo";
+  logo.style.display = "block"; // делаем видимым темный логотип
+  logoLight.style.display = "none"; // меняем обратно цвет
 };
 const lightModeOff = (event) => {
   // выключаем светлую функцию
   navbar.classList.remove("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo_light";
+  logo.style.display = "none"; // делаем невидимым светлый логотип
+  logoLight.style.display = "block"; // меняем обратно цвет
 };
 
 window.addEventListener("scroll", () => {
