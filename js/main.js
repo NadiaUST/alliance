@@ -79,7 +79,6 @@ const swiper = new Swiper(".swiper", {
 // Подключение слайдера block steps
 const swiperSteps = new Swiper(".swiperSteps", {
   speed: 400, // управление с помощью API (скорость)
-  autoHeight: true, // авто-высота слайдов
   slidesPerView: 1, // количество слайдов на экране
   navigation: {
     // подключение кнопок навигации
@@ -91,13 +90,11 @@ const swiperSteps = new Swiper(".swiperSteps", {
     576: {
       slidesPerView: 1,
     },
-    // когда окно шире, чем >= 768px
     768: {
       slidesPerView: 2,
     },
-    // когда окно шире, чем >= 1024px
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 3, // всегда 3, даже на больших экранах
     },
   },
 });
