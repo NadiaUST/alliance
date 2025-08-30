@@ -94,7 +94,7 @@ const swiperSteps = new Swiper(".swiperSteps", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3, // всегда 3, даже на больших экранах
+      slidesPerView: 3,
     },
   },
 });
