@@ -14,7 +14,7 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 .container {
-  max-width: 1601px;
+  max-width: 1424px;
   margin: 0 auto;
 }
 .mobile-menu {
@@ -51,14 +51,14 @@ body {
 }
 /* делаем чтобы блок header был во весь экран через "vh" */
 .header {
-  padding: 94px 0 0 0;
+  padding-top: 60px;
 }
 /* ставим фоновое изображение */
 .header-image {
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -55px;
+  background-position: center bottom -34px;
   position: relative; /* задаём родителю */
 }
 /* задаём темную плашку для фона, через псевдоэлемент */
@@ -156,8 +156,8 @@ body {
   display: inline-block;
 }
 .button-container {
-  padding: 33px 67px;
-  word-spacing: -1px;
+  padding: 28px 61px;
+  letter-spacing: 0.8px;
 }
 .button-icon {
   width: 1.5rem;
@@ -173,9 +173,8 @@ body {
 .header-content {
   position: relative;
   z-index: 1;
-  margin-top: 177px;
+  margin-top: 183px;
   color: #fff;
-  margin-bottom: 110px;
 }
 .seporator {
   width: 166px;
@@ -185,19 +184,18 @@ body {
 .header-title {
   max-width: 1200px;
   font-family: "Bebas Neue";
-  font-size: 84px;
-  line-height: 128%;
-  margin: 25px 0 42px 0;
-  letter-spacing: 3px;
-  word-spacing: -3px;
+  font-size: 78px;
+  line-height: 124%;
+  margin: 22px 0 37px 0;
+  letter-spacing: 1.3px;
 }
 .header-text {
-  max-width: 800px;
-  font-size: 18px;
+  max-width: 700px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 56px;
-  word-spacing: 1px;
+  line-height: 1.627rem;
+  margin-bottom: 50px;
+  word-spacing: 1.1px;
 }
 .header-features {
   display: flex;
@@ -206,18 +204,24 @@ body {
   color: #fff;
   position: relative;
   list-style: none;
+  margin-bottom: 0;
+}
+.swiper {
+  margin-top: 83px;
+}
+.swiper-slide {
+  width: 298px;
 }
 .header-features-item {
-  padding: 35px 55px 11px 55px;
+  padding: 30px 60px 13px 50px;
   height: auto;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
-  width: 350px;
 }
 .header-features-text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 22px;
+  margin-top: 17px;
 }
 .slider-buttons {
   display: none;
@@ -237,6 +241,7 @@ body {
   height: auto; /* растягивается по контенту */
   display: flex;
   flex-direction: column;
+  margin-top: 0;
 }
 .sliderSteps-buttons {
   display: none;
@@ -262,31 +267,28 @@ body {
   margin: 150px 0;
 }
 .section-light {
-  margin: 168px 0;
+  margin: 150px 0;
 }
 .section-title {
   font-family: "Bebas Neue";
-  font-size: 66px;
+  font-size: 55px;
   font-weight: 600;
   line-height: 72px;
   text-transform: uppercase;
-  margin-bottom: 68px;
-  margin-top: 30px;
-  letter-spacing: 1px;
-  word-spacing: -5px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
 }
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 50px;
-}
-.steps-item {
-  max-width: 350px;
+  gap: 62px;
 }
 .steps-num {
   font-family: "Bebas Neue";
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 55px;
   color: rgba(92, 142, 230, 1);
@@ -302,30 +304,27 @@ body {
   margin-left: 30px;
 }
 .steps-title {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 38px;
-  margin-top: 43px;
-  margin-bottom: 14px;
-  letter-spacing: 1px;
-  line-height: 48px;
+  margin-top: 38px;
+  line-height: 160%;
 }
 .steps-text {
   color: rgba(130, 138, 153, 1);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
-  margin-top: 10px;
-  margin-bottom: 27px;
-  line-height: 28px;
+  line-height: 155%;
+  margin-top: -16px;
+  margin-bottom: 25px;
+  word-spacing: 1px;
 }
 .steps-link {
   display: flex;
   align-items: center;
   color: rgba(92, 142, 230, 1);
-  font-size: 1.125rem;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 22px;
   text-decoration: none;
 }
 .steps-link:before {
@@ -333,7 +332,7 @@ body {
   background: rgba(92, 142, 230, 1);
   height: 1px;
   width: 46px;
-  margin-right: 1.375rem;
+  margin-right: 15px;
   transition: width 0.2s;
 }
 .steps-link:hover:before {
