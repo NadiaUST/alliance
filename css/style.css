@@ -490,6 +490,9 @@ body {
   .card {
     flex-basis: 50%;
   }
+  .steps {
+    gap: 0;
+  }
 }
 @media (max-width: 992px) {
   html {

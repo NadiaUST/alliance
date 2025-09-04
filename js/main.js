@@ -93,11 +93,11 @@ const swiperSteps = new Swiper(".swiperSteps", {
     },
     // когда окно шире, чем >= 768px
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     // когда окно шире, чем >= 1024px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     // когда окно шире, чем >= 1200px
     1200: {
