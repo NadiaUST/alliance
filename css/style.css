@@ -392,24 +392,12 @@ body {
 .production-title {
   margin-bottom: 52px;
 }
-/* Секция с марками */
-.marks-cards {
+/* Секция trademark */
+.trademark-cards {
   display: flex;
 }
-.card-content-mark {
-  display: flex;
-  align-items: center;
-}
-.card-mark {
+.trademark-card {
   flex-basis: 50%;
-}
-.mark-text {
-  margin-bottom: 0;
-}
-.marks-image {
-  width: 150px;
-  height: 130px;
-  margin-right: 20px;
 }
 /* Адаптив */
 @media (max-width: 1700px) {
@@ -690,11 +678,5 @@ body {
   }
   .header-content {
     margin-top: 50px;
-  }
-  .card-content {
-    align-items: start;
-  }
-  .card-title {
-    font-size: 20px;
   }
 }
