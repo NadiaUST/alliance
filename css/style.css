@@ -398,6 +398,49 @@ body {
 }
 .trademark-card {
   flex-basis: 50%;
+  text-decoration: none;
+  border: 1px solid #ebebf0;
+  transition: border 0.2s;
+  cursor: pointer;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 50px;
+  grid-template-areas:
+    "logo title title"
+    "logo text text";
+}
+.trademark-card-logo {
+  width: 100%;
+  fill: #828a99;
+  grid-area: logo;
+}
+.trademark-card-title {
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292d33;
+  grid-area: title;
+}
+.trademark-card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828a99;
+  grid-area: text;
+  margin-top: 10px;
+}
+.trademark-card:hover {
+  border-color: #5c8ee6;
+}
+.trademark-card:hover .trademark-card-logo {
+  fill: #5c8ee6;
+}
+.trademark-card:hover .trademark-card-title {
+  color: #5c8ee6;
 }
 /* Адаптив */
 @media (max-width: 1700px) {
@@ -483,6 +526,9 @@ body {
   }
   .steps {
     gap: 0;
+  }
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
 }
 @media (max-width: 992px) {
@@ -647,12 +693,8 @@ body {
   .swiper-slide {
     width: 250px;
   }
-  .marks-image {
-    width: 100px;
-    height: 80px;
-  }
-  .card-title {
-    font-size: 24px;
+  .trademark-cards {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -678,5 +720,22 @@ body {
   }
   .header-content {
     margin-top: 50px;
+  }
+  .card-text {
+    margin-bottom: 260px;
+  }
+  .section-title {
+    font-size: 40px;
+  }
+  .trademark-card {
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+      "logo title"
+      "text text";
+  }
+  .trademark-card-title {
+    margin-top: 40px;
+    font-size: 1.5rem;
   }
 }
