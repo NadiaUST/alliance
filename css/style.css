@@ -490,16 +490,22 @@ body {
   .card {
     flex-basis: 50%;
   }
+  .card-content {
+    padding: 40px 30px 40px 40px;
+  }
   .steps {
     gap: 0;
   }
 }
 @media (max-width: 992px) {
-  html {
-    font-size: 12px;
-  }
   .container {
-    max-width: 60rem;
+    max-width: 55rem;
+  }
+  .header-title {
+    font-size: 50px;
+  }
+  .header-text {
+    font-size: 14px;
   }
   .header-nav {
     display: none;
@@ -508,6 +514,22 @@ body {
     flex-grow: 1;
     justify-content: center;
     border: none;
+  }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .button-container {
+    padding: 23px 55px;
+  }
+  .header-features-text {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 45px;
+  }
+  .navbar-button {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
   }
   .mobile-menu-toggle {
     width: 80px;
@@ -621,8 +643,31 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translate(9px);
   }
+  .marks-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .steps {
+    gap: 20px;
+  }
+  .steps-title {
+    font-size: 22px;
+  }
+  .steps-text {
+    font-size: 14px;
+  }
+  .swiper-slide {
+    width: 250px;
+  }
+  .marks-image {
+    width: 100px;
+    height: 80px;
+  }
+  .card-title {
+    font-size: 24px;
+  }
 }
-@media (max-width: 768) {
+@media (max-width: 768px) {
   .container {
     max-width: 40rem;
   }
@@ -630,20 +675,26 @@ body {
     font-size: 4rem;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
   .card {
     flex-basis: 100%;
   }
+  .card-content {
+    padding: 30px 20px 30px 20px;
+  }
 }
-@media (max-width: 576) {
+@media (max-width: 576px) {
   .container {
     max-width: 90%;
   }
-  .header-title {
-    font-size: 2rem;
-  }
   .header-content {
-    padding-top: 2rem;
+    margin-top: 50px;
+  }
+  .card-content {
+    align-items: start;
+  }
+  .card-title {
+    font-size: 20px;
   }
 }
