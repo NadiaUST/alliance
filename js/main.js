@@ -3,6 +3,16 @@ const navbar = document.querySelector(".navbar"); //обращение к неи
 const logoLight = document.querySelector(".logo-light"); // создаем константу logoLight
 const logo = document.querySelector(".logo"); // создаем константу logo
 
+window.addEventListener("scroll", () => {
+  //когда пользователь начнет прокрутку страницы, вызовет действие:
+  //если это окно прокручивается по оси Y > 1px, то добавь класс navbar-light
+  this.scrollY > 1 ? lightModeOn() : lightModeOff(); // "?" - это if ":" - это else
+  // если прокрутили обратно наверх, то удали класс navbar-light
+});
+
+// Функция для адаптивного меню
+const mMenuToggle = document.querySelector(".mobile-menu-toggle");
+const menu = document.querySelector(".mobile-menu");
 // Функция, которая включает светлый режим для адаптивного меню, меняя лого местами
 const lightModeOn = (event) => {
   // включаем светлую функцию
@@ -17,16 +27,6 @@ const lightModeOff = (event) => {
   logoLight.style.display = "block"; // меняем обратно цвет
 };
 
-window.addEventListener("scroll", () => {
-  //когда пользователь начнет прокрутку страницы, вызовет действие:
-  //если это окно прокручивается по оси Y > 1px, то добавь класс navbar-light
-  this.scrollY > 1 ? lightModeOn() : lightModeOff(); // "?" - это if ":" - это else
-  // если прокрутили обратно наверх, то удали класс navbar-light
-});
-
-// Функция для адаптивного меню
-const mMenuToggle = document.querySelector(".mobile-menu-toggle");
-const menu = document.querySelector(".mobile-menu");
 const openMenu = (event) => {
   // функция открывания меню
   menu.classList.add("is-open"); // вешает класс is-open
@@ -50,7 +50,8 @@ mMenuToggle.addEventListener("click", (event) => {
 // Подключение слайдера block feautures
 const swiper = new Swiper(".swiper", {
   speed: 400, // управление с помощью API (скорость)
-  slidesPerView: auto, // ширина блоков зависит от css
+  autoHeiht: true,
+  slidesPerView: 1,
   navigation: {
     // подключение кнопок навигации
     nextEl: ".slider-button-next", // вперед листает слайд
@@ -79,7 +80,7 @@ const swiper = new Swiper(".swiper", {
 // Подключение слайдера block steps
 const swiperSteps = new Swiper(".swiperSteps", {
   speed: 400, // управление с помощью API (скорость)
-  slidesPerView: 1, // количество слайдов на экране
+  slidesPerView: 1,
   navigation: {
     // подключение кнопок навигации
     nextEl: ".sliderSteps-button-next", // вперед листает слайд
@@ -88,13 +89,19 @@ const swiperSteps = new Swiper(".swiperSteps", {
   breakpoints: {
     // когда окно шире, чем >= 576px
     576: {
-      slidesPerView: 1,
-    },
-    768: {
       slidesPerView: 2,
     },
-    1024: {
+    // когда окно шире, чем >= 768px
+    768: {
       slidesPerView: 3,
+    },
+    // когда окно шире, чем >= 1024px
+    1024: {
+      slidesPerView: 4,
+    },
+    // когда окно шире, чем >= 1200px
+    1200: {
+      slidesPerView: 5,
     },
   },
 });
