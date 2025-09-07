@@ -105,3 +105,28 @@ const swiperSteps = new Swiper(".swiperSteps", {
     },
   },
 });
+// Подключение слайдера blog
+const swiperBlog = new Swiper(".blog-slider", {
+  speed: 400, // управление с помощью API (скорость)
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    // подключение кнопок навигации
+    nextEl: ".blog-button-next", // вперед листает слайд
+    prevEl: ".blog-button-prev", // назад листает слайд
+  },
+  breakpoints: {
+    // когда окно шире, чем >= 374px
+    374: {
+      slidesPerView: 1,
+    },
+    // когда окно шире, чем >= 768px
+    768: {
+      slidesPerView: 2,
+    },
+    // когда окно шире, чем >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+  },
+});
