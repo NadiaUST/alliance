@@ -913,7 +913,7 @@ body {
     border: none;
   }
   .logo-svg {
-    max-width: 10rem;
+    max-width: 7rem;
   }
   .button-container {
     padding: 23px 55px;
@@ -925,8 +925,8 @@ body {
     font-size: 45px;
   }
   .navbar-button {
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .mobile-menu-toggle {
     width: 80px;
@@ -1013,7 +1013,6 @@ body {
   }
   .mobile-info {
     display: flex;
-    align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
   }
