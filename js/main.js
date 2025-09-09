@@ -132,31 +132,25 @@ const swiperBlog = new Swiper(".blog-slider", {
 });
 // модальное окно
 const modal = document.querySelector(".modal"); //конст отвечающая за модальное окно
-const modalToggle = document.querySelectorAll("[data-toggle=modal]"); //массив который переключает модальное окно, ищем все кнопки которое вызыывает модальное окно
-const modalClose = document.querySelector(".modal-close"); // закрываем окно
-console.log(modalToggle);
-// открытие модального окна
-modalToggle.forEach((element) => {
-  element.addEventListener("click", (event) => {
+const modalDialog = document.querySelector(".modal-dialog"); //для отслеживания клика вне окна
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal" || // если элемент содержит toggle modal ||(или)
+    event.target.parentNode.dataset.toggle == "modal" || // родительский элемент содержит
+    (!event.composedPath().includes(modalDialog) && //но если не(!) содержит и окно открыто, то закрываем
+      modal.classList.contains("is-open"))
+  ) {
     event.preventDefault();
-    modal.classList.add("is-open");
-  });
-});
-//закрытие окна по кнопке крестик
-modalClose.addEventListener("click", (event) => {
-  event.preventDefault();
-  modal.classList.remove("is-open");
-});
-// закрытие по клику вне окна
-modal.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    modal.classList.remove("is-open");
+    modal.classList.toggle("is-open"); // открытие окна
   }
 });
-
-// закрытие по Esc
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.remove("is-open");
+// Для закрытия окна добавляем иконке close, массив data-toggle
+//закрытие окна Esc
+document.addEventListener("keyup", (event) => {
+  // если мы нажали кнопку, то мы отслеживаем что за кнопка keyup
+  if (event.key == "Escape" && modal.classList.contains("is-open")) {
+    // если нажимаем esc и(&&) открыто сейчас модальное окно
+    modal.classList.toggle("is-open"); // то закрываем
   }
 });
