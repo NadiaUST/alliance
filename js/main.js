@@ -130,3 +130,33 @@ const swiperBlog = new Swiper(".blog-slider", {
     },
   },
 });
+// модальное окно
+const modal = document.querySelector(".modal"); //конст отвечающая за модальное окно
+const modalToggle = document.querySelectorAll("[data-toggle=modal]"); //массив который переключает модальное окно, ищем все кнопки которое вызыывает модальное окно
+const modalClose = document.querySelector(".modal-close"); // закрываем окно
+console.log(modalToggle);
+// открытие модального окна
+modalToggle.forEach((element) => {
+  element.addEventListener("click", (event) => {
+    event.preventDefault();
+    modal.classList.add("is-open");
+  });
+});
+//закрытие окна по кнопке крестик
+modalClose.addEventListener("click", (event) => {
+  event.preventDefault();
+  modal.classList.remove("is-open");
+});
+// закрытие по клику вне окна
+modal.addEventListener("click", (event) => {
+  if (event.target === modal) {
+    modal.classList.remove("is-open");
+  }
+});
+
+// закрытие по Esc
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && modal.classList.contains("is-open")) {
+    modal.classList.remove("is-open");
+  }
+});
