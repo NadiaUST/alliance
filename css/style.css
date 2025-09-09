@@ -888,7 +888,7 @@ body {
   }
   .footer-menu-column-2 {
     columns: 20rem auto;
-    min-width: 25rem;
+    min-width: 5rem;
   }
   .footer-phone {
     font-size: 1.5rem;

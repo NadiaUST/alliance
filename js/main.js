@@ -116,8 +116,8 @@ const swiperBlog = new Swiper(".blog-slider", {
     prevEl: ".blog-button-prev", // назад листает слайд
   },
   breakpoints: {
-    // когда окно шире, чем >= 374px
-    374: {
+    // когда окно шире, чем >= 304px
+    304: {
       slidesPerView: 1,
     },
     // когда окно шире, чем >= 768px
