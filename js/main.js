@@ -2,31 +2,35 @@
 const navbar = document.querySelector(".navbar"); //обращение к неизм.константе, чтобы найти класс навбар и поместить в переменную навбар
 const logoLight = document.querySelector(".logo-light"); // создаем константу logoLight
 const logo = document.querySelector(".logo"); // создаем константу logo
-
-window.addEventListener("scroll", () => {
-  //когда пользователь начнет прокрутку страницы, вызовет действие:
-  //если это окно прокручивается по оси Y > 1px, то добавь класс navbar-light
-  this.scrollY > 1 ? lightModeOn() : lightModeOff(); // "?" - это if ":" - это else
-  // если прокрутили обратно наверх, то удали класс navbar-light
-});
-
-// Функция для адаптивного меню
-const mMenuToggle = document.querySelector(".mobile-menu-toggle");
+const mMenuToggle = document.querySelector(".mobile-menu-toggle"); // переменная для адаптивного меню
 const menu = document.querySelector(".mobile-menu");
+const isFront = document.body.classList.contains("front-page"); // проверка содержит ли главная страница класс front-page
 // Функция, которая включает светлый режим для адаптивного меню, меняя лого местами
 const lightModeOn = (event) => {
   // включаем светлую функцию
   navbar.classList.add("navbar-light");
-  logo.style.display = "block"; // делаем видимым темный логотип
-  logoLight.style.display = "none"; // меняем обратно цвет
 };
 const lightModeOff = (event) => {
   // выключаем светлую функцию
   navbar.classList.remove("navbar-light");
-  logo.style.display = "none"; // делаем невидимым светлый логотип
-  logoLight.style.display = "block"; // меняем обратно цвет
 };
 
+// Функция для смены высоты навигации
+const changeNavHeight = (height) => {
+  navbar.style.height = height; //меняем высоту навигации
+};
+window.addEventListener("scroll", () => {
+  // если мы прокручиваем страницу, то высота становится 4.5rem
+  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  // если прокрутили обратно наверх, то высота становится обратно
+  if (isFront) {
+    // если мы на главной странице, то выполняется условие:
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  }
+});
+// Функция для смены цвета навигации при прокрутки страницы
+
+// Функции для открытия адаптивного меню навигации
 const openMenu = (event) => {
   // функция открывания меню
   menu.classList.add("is-open"); // вешает класс is-open
@@ -41,7 +45,6 @@ const closeMenu = (event) => {
   document.body.style.overflow = ""; // возвращаем прокрутку сайта под меню
   lightModeOff();
 };
-
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault(); // отключаем стандартный переход по ссылке
   menu.classList.contains("is-open") ? closeMenu() : openMenu(); // если меню имеет класс is-open, то закрой это меню, а если оно закрыто, то открой это меню

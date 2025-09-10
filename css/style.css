@@ -36,14 +36,22 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
-  height: 74px;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.logo-dark {
+  display: none;
+}
+.navbar-scroll {
+  height: 4.5rem;
 }
 .navbar-light .header-logo-path {
   /* когда navbar-light, найди header-logo-path и сделай ему заливку */
   fill: #292d33;
-}
-.logo {
-  display: none;
 }
 .logo-svg {
   width: 138px;
