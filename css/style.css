@@ -784,28 +784,49 @@ body {
 /* Страница about */
 .about-company {
   background-color: var(--bg2, rgba(240, 242, 245, 1));
-  padding: 50px 0;
+  padding: 60px 0;
   margin-top: 90px;
 }
-.breadcrumbs {
+.breadcrumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
   font-size: 14px;
-  color: #888; /* серый цвет */
+  color: #888;
 }
-.breadcrumbs-link {
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs li + li::before {
+  content: "—"; /* разделитель */
+  margin: 0 8px;
+  color: #bbb;
+}
+.breadcrumbs a {
   text-decoration: none;
   color: #888;
   transition: color 0.3s;
 }
-.breadcrumbs-link:hover {
-  color: #000; /* при наведении */
+.breadcrumbs a:hover {
+  color: #000;
 }
-.breadcrumbs .separator {
-  margin: 0 8px;
-  color: #bbb;
+.breadcrumbs .current {
+  font-weight: 600;
+  color: #444;
 }
-.breadcrumbs .breadcrumbs-current {
-  color: #444; /* активная страница */
-  font-weight: 400;
+.about-company-car {
+  position: relative;
+  margin-bottom: 0;
+}
+.about-image {
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+}
+.header-features-text-black {
+  color: var(--txt, rgba(41, 45, 51, 1));
 }
 /* Модальное окно (прозрачное) */
 .modal {
@@ -1005,6 +1026,9 @@ body {
   }
   .footer-phone {
     font-size: 1.5rem;
+  }
+  .about-image {
+    display: none;
   }
 }
 @media (max-width: 992px) {
