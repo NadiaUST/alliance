@@ -781,6 +781,32 @@ body {
   font-size: 0.75rem;
   color: inherit;
 }
+/* Страница about */
+.about-company {
+  background-color: var(--bg2, rgba(240, 242, 245, 1));
+  padding: 50px 0;
+  margin-top: 90px;
+}
+.breadcrumbs {
+  font-size: 14px;
+  color: #888; /* серый цвет */
+}
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s;
+}
+.breadcrumbs-link:hover {
+  color: #000; /* при наведении */
+}
+.breadcrumbs .separator {
+  margin: 0 8px;
+  color: #bbb;
+}
+.breadcrumbs .breadcrumbs-current {
+  color: #444; /* активная страница */
+  font-weight: 400;
+}
 /* Модальное окно (прозрачное) */
 .modal {
   opacity: 0;
