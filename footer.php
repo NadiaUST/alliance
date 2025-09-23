@@ -16,7 +16,8 @@
                   type="text"
                   class="input"
                   name="username"
-                  placeholder=" "
+                  placeholder=""
+                  maxlength="100"
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
@@ -27,7 +28,8 @@
                   type="tel"
                   class="input"
                   name="userphone"
-                  placeholder=" "
+                  placeholder=""
+                  maxlength="30"
                 />
                 <label class="input-group-label" for="user-phone"
                   >Номер телефона</label
@@ -230,7 +232,7 @@
                 type="text"
                 class="input modal-input"
                 name="username"
-                placeholder=" "
+                placeholder=""
               />
               <label
                 class="input-group-label modal-input-label"
@@ -245,7 +247,7 @@
                 type="tel"
                 class="input modal-input"
                 name="userphone"
-                placeholder=" "
+                placeholder=""
               />
               <label
                 class="input-group-label modal-input-label"

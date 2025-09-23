@@ -162,7 +162,7 @@ document.addEventListener("keyup", (event) => {
 const forms = document.querySelectorAll("form"); // собираем формы
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
-    errorFieldCssClass: "is-invalid",
+    errorFieldCssClass: ".is-invalid",
   });
   validation
     .addField("[name=username]", [
