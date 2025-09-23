@@ -638,6 +638,14 @@ body {
   color: #828a99;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
 }
+input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: -1rem;
+  display: block;
+}
 .input:focus {
   border: 1px solid #5c8ee6;
   outline: 0;
