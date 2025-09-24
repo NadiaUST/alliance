@@ -1,6 +1,6 @@
 <?php
-$user_name = htmlspecialchars($_POST["user_name"]);
-$user_phone = htmlspecialchars($_POST["user_phone"]);
+$user_name = htmlspecialchars($_POST["username"]);
+$user_phone = htmlspecialchars($_POST["userphone"]);
 
 $token = "7977068185:AAGzH3ERp0OKnXew4qi8uV9gdcvRf5X2H2I";
 $chat_id = "-4843193241";
