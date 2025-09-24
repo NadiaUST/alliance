@@ -194,7 +194,7 @@ forms.forEach((form) => {
             thisForm.reset();
             alert("Форма отправлена!");
           } else {
-            alert(response.statusText);
+            alert("Ошибка. Текс ошибки: ".response.statusText);
           }
         });
       };
