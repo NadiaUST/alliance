@@ -276,6 +276,20 @@
         </form>
       </div>
     </div>
+    <!-- Модальное окно благодарности -->
+     <div id="successModal" class="thanks-modal">
+        <div class="modal-content">
+          <img src="img/thanks.png" alt="icon: thanks">
+          <a href="#" class="modal-close modal-close-thanks">
+          <svg class="close-icon" width="18" height="18">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+          </a>
+          <h2 class="thanks-title">Спасибо за заявку!</h2>
+          <p class="thanks-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+          <button class="thanks-button">Вернутся на главную</button>
+        </div>
+      </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>

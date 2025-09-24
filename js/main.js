@@ -192,9 +192,13 @@ forms.forEach((form) => {
           body: formData,
         }).then((response) => {
           if (response.ok) {
-            // если прошло, то выходит форма одобрения
+            // если прошло успешно
             thisForm.reset();
-            alert("Форма отправлена!");
+            // открываем модальное окно, вместо alert
+            const thanksModal = document.querySelector(".thanks-modal");
+            if (thanksModal) {
+              thanksModal.classList.add("is-open");
+            }
           } else {
             // если не прошло, то выходит форма ошибки
             alert("Ошибка. Текс ошибки: ".response.statusText);
@@ -276,3 +280,50 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+// Получаем форму и модалку "Спасибо"
+const form = document.querySelector(".cta-form-footer form");
+const thanksModal = document.querySelector(".thanks-modal");
+const thanksContent = thanksModal.querySelector(".modal-content");
+
+// Обработка отправки формы
+if (form) {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault(); // блокируем перезагрузку страницы
+    // Если успех → показываем модалку
+    thanksModal.classList.add("is-open");
+  });
+}
+
+// Закрытие модалки по клику вне блока
+document.addEventListener("click", (event) => {
+  if (
+    thanksModal.classList.contains("is-open") &&
+    !event.composedPath().includes(thanksContent)
+  ) {
+    thanksModal.classList.remove("is-open");
+  }
+});
+
+// Закрытие по кнопке Esc
+document.addEventListener("keyup", (event) => {
+  if (event.key === "Escape" && thanksModal.classList.contains("is-open")) {
+    thanksModal.classList.remove("is-open");
+  }
+});
+
+// Закрытие по кнопке "Вернуться на главную"
+const closeBtn = thanksModal.querySelector(".thanks-button");
+if (closeBtn) {
+  closeBtn.addEventListener("click", () => {
+    thanksModal.classList.remove("is-open");
+  });
+}
+// Закрытие по кнопке "Крестик"
+const closeThanksBtn = document.querySelector(".modal-close-thanks");
+if (closeThanksBtn) {
+  closeThanksBtn.addEventListener("click", () => {
+    event.preventDefault(); // отменяет переход по href
+    thanksModal.classList.remove("is-open");
+  });
+}
