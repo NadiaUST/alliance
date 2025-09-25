@@ -845,7 +845,7 @@ body {
   right: 200px;
   bottom: 0;
 }
-.header-features-text-black {
+.swiper-color {
   color: var(--txt, rgba(41, 45, 51, 1));
 }
 /* Модальное окно (прозрачное) */
