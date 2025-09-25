@@ -279,8 +279,8 @@
      <!-- Модальное окно -->
     <div class="modal" id="alert-modal">
       <div class="modal-dialog">
-        <svg class="notify-icon" width="40" height="40">
-          <use href="./img/sprite.svg#car"></use>
+        <svg class="notify-icon" width="360" height="310">
+          <use href="./img/sprite.svg#thanks"></use>
         </svg>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
