@@ -153,7 +153,7 @@
           >
         </div>
         <!-- блок телефон -->
-        <button class="navbar-button button" data-toggle="modal">
+        <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
           <svg class="button-icon" width="24" height="24">
             <use href="img/sprite.svg#phone_logo"></use>
           </svg>
@@ -175,7 +175,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <div class="button button-container">Подробнее о компании</div>
+          <div class="button button-container" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</div>
         </div>
         <!-- /.header-content -->
         <!-- Основной блок слайдера -->

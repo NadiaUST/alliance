@@ -39,7 +39,7 @@
             </div>
             <!-- /.input-group-wrapper -->
             <div class="cta-form-footer">
-              <button type="submit" class="button cta-form-button">
+              <button type="submit" class="button cta-form-button" >
                 Отправить заявку
               </button>
               <div class="notify">
@@ -211,10 +211,10 @@
     </footer>
     <!-- /.footer -->
      <!-- Модальное окно -->
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="18" height="18">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -245,7 +245,7 @@
               <input
                 id="modal-user-phone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input phone-mask"
                 name="userphone"
                 placeholder=""
               />
@@ -276,20 +276,23 @@
         </form>
       </div>
     </div>
-    <!-- Модальное окно благодарности -->
-     <div id="successModal" class="thanks-modal">
-        <div class="modal-content">
-          <img src="img/thanks.png" alt="icon: thanks">
-          <a href="#" class="modal-close modal-close-thanks">
+     <!-- Модальное окно -->
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog">
+        <svg class="notify-icon" width="40" height="40">
+          <use href="./img/sprite.svg#car"></use>
+        </svg>
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="18" height="18">
             <use href="img/sprite.svg#close"></use>
           </svg>
-          </a>
-          <h2 class="thanks-title">Спасибо за заявку!</h2>
-          <p class="thanks-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
-          <button class="thanks-button">Вернутся на главную</button>
-        </div>
+        </a>
+        <p class="modal-text">
+         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
       </div>
+    </div>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
