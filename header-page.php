@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Автомобильная химия - Aliance Production</title>
+    <title><?= $page_title?> - Aliance Production</title>
   </head>
   <body>
     <!-- Мобильное меню для адаптива -->
@@ -122,15 +122,15 @@
       <!-- блок с логотипом -->
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="/about.php" class="header-nav-link">О компании</a>
+          <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="/contract.php" class="header-nav-link"
+          <a href="./contracts.php" class="header-nav-link"
             >Контрактное производство</a
           >
         </li>
         <li class="header-nav-item">
-          <a href="/own.php" class="header-nav-link"
+          <a href="./trademarks.php" class="header-nav-link"
             >Собственные торговые марки</a
           >
         </li>
@@ -152,7 +152,7 @@
         >
       </div>
       <!-- блок телефон -->
-      <button class="navbar-button button" data-toggle="modal">
+      <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone_logo"></use>
         </svg>
@@ -161,18 +161,16 @@
       <!-- блок с кнопкой -->
     </nav>
     <!-- navigation -->
-    <section class="section about-company about-company-car">
+    <section class="section about-company <?= $header_style;?>">
       <div class="container">
         <div class="seporator seporator-two"></div>
-        <h2 class="section-title">Автомобильная химия</h2>
+        <h2 class="section-title"><?= $page_title ?></h2>
         <nav class="breadcrumbs" aria-label="Хлебные крошки">
           <ol>
             <li><a href="/">Главная</a></li>
-            <li><a href="/contract">Контрактное производство</a></li>
-            <li class="current">Автомобильная химия</li>
+            <li class="current"><?= $page_title ?></li>
           </ol>
         </nav>
-        <img class="about-image" src="/img/product-autohim.png" alt="" />
       </div>
       <!-- /.container -->
     </section>
@@ -244,4 +242,183 @@
       <!-- Контейнер -->
     </header>
     <!-- header -->
-<?php include_once('footer.php');?>
+    <section class="section founder">
+      <div class="container">
+        <img
+          src="./img/founder-image.jpg"
+          alt="Founder"
+          class="founder-photo"
+        />
+        <div class="founder-content-wrapper">
+          <div class="founder-content">
+            <div class="seporator"></div>
+            <h2 class="section-title">Отношение к делу и к клиентам</h2>
+            <p class="founder-text">
+              Кстати, интерактивные прототипы описаны максимально подробно.
+              Повседневная практика показывает, что укрепление и развитие
+              внутренней структуры говорит о возможностях соответствующих
+              условий активизации. Внезапно, независимые государства, которые
+              представляют собой яркий пример континентально-европейского типа
+              политической культуры, будут подвергнуты целой серии независимых
+              исследований. С учётом сложившейся международной обстановки,
+              синтетическое тестирование выявляет срочную потребность системы
+              массового участия. А ещё действия представителей оппозиции,
+              превозмогая сложившуюся непростую экономическую ситуацию, в равной
+              степени предоставлены сами себе. Не следует, однако, забывать, что
+              выбранный нами инновационный путь в значительной степени
+              обусловливает важность дальнейших направлений развития.
+            </p>
+            <a href="#" class="button-link">Подробнее о компании</a>
+          </div>
+          <!-- /.founder-content -->
+        </div>
+        <!-- /.founder-content-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section founder -->
+    <section class="section clients">
+      <div class="container">
+        <div class="clients-wrapper">
+          <div class="clients-content">
+            <div class="seporator"></div>
+            <h2 class="section-title">
+              Производим аэрозольную продукцию для разных сфер
+            </h2>
+            <ul class="clients-list">
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#him"></use>
+                </svg>
+                Химические производства
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#car"></use>
+                </svg>
+                Автомойки
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#eat"></use>
+                </svg>
+                Пищевая продукция
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#brush"></use>
+                </svg>
+                Лаки и краски
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#cosmetic"></use>
+                </svg>
+                Косметические средства
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#car-cosm"></use>
+                </svg>
+                Автомобильная косметика
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#t-short"></use>
+                </svg>
+                Косметика по уходу за одеждой
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#boots"></use>
+                </svg>
+                Косметика по уходу за обувью
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#bricks"></use>
+                </svg>
+                Строительные материалы
+              </li>
+              <li class="clients-list-item">
+                <svg width="30" height="30" class="clients-list-icon">
+                  <use href="img/sprite.svg#more"></use>
+                </svg>
+                И многих других
+              </li>
+            </ul>
+          </div>
+          <!-- /.clients-content -->
+          <div class="clients-logo-list">
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+            <a href="#" class="clients-logo-item">
+              <img
+                src="img/bk.png"
+                alt="logo: burger king"
+                class="clients-logo"
+              />
+            </a>
+          </div>
+          <!-- /.clients-logo -->
+        </div>
+        <!-- /.clients-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section clients -->
+    <!-- Модальное окно -->
