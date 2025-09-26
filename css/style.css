@@ -466,6 +466,14 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.autohim-photo {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
 .founder-content {
   max-width: 45rem;
 }
@@ -478,6 +486,10 @@ body {
   font-size: 1rem;
   line-height: 160%;
   color: #828a99;
+  margin-bottom: 50px;
+}
+.founder-padding {
+  min-height: 0;
 }
 /* Секция clients */
 .clients-wrapper {
@@ -970,6 +982,9 @@ body {
 .expert-content-wrapper {
   flex: 0 0 55%;
 }
+.autohim-content {
+  max-width: 500px;
+}
 .expert-title {
   font-family: "Bebas Neue";
   font-size: 60px;
@@ -1021,6 +1036,18 @@ body {
 }
 .buttons-end {
   display: block;
+}
+.clients-list-autohim {
+  list-style: none;
+  padding: 0;
+  columns: 4 auto;
+}
+.autohim-content {
+  max-width: 100%;
+}
+.autohim-text {
+  max-width: 200px;
+  color: red;
 }
 /* Адаптив */
 @media (max-width: 1700px) {
@@ -1088,6 +1115,14 @@ body {
   }
   .expert-text {
     font-size: 14px;
+  }
+  .clients-list-autohim {
+    list-style: none;
+    padding: 0;
+    columns: 2 auto;
+  }
+  .clients-list-item {
+    font-size: 12px;
   }
 }
 @media (max-width: 1200px) {
@@ -1372,6 +1407,11 @@ body {
     width: 100%;
     margin-bottom: 3.125rem;
   }
+  .autohim-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
   .cta-form-footer {
     display: flex;
     flex-direction: column;
@@ -1402,6 +1442,11 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+  .clients-list-autohim {
+    list-style: none;
+    padding: 0;
+    columns: 1 auto;
   }
 }
 @media (max-width: 576px) {

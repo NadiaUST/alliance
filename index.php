@@ -28,23 +28,23 @@
               >
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+              <a class="mobile-submenu-link" href="/autohim.php">Бытовая химия</a>
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="#"
+              <a class="mobile-submenu-link" href="/autohim.php"
                 >Дезинфицирующие средства</a
               >
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+              <a class="mobile-submenu-link" href="/autohim.php">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="#"
+              <a class="mobile-submenu-link" href="/autohim.php"
                 >Косметическая продукция</a
               >
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="/product-ag.php"
+              <a class="mobile-submenu-link" href="/autohim.php"
                 >Краски аэрозольные</a
               >
             </li>

@@ -19,25 +19,25 @@
               </li>
               <li class="clients-list-item">
                 <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#home"></use>
+                  <use href="img/sprite.svg#cosmetic"></use>
                 </svg>
                 Бытовая химия
               </li>
               <li class="clients-list-item">
                 <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#dis"></use>
+                  <use href="img/sprite.svg#brush"></use>
                 </svg>
                 Дезинфицирующие средства
               </li>
               <li class="clients-list-item">
                 <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#aerozol"></use>
+                  <use href="img/sprite.svg#him"></use>
                 </svg>
                 Пищевые аэрозоли
               </li>
               <li class="clients-list-item">
                 <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#cosmetic"></use>
+                  <use href="img/sprite.svg#car"></use>
                 </svg>
                 Косметическая продукция
               </li>
