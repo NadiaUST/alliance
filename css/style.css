@@ -992,6 +992,36 @@ body {
 .our-production {
   display: flex;
 }
+.center-content {
+  display: flex;
+  gap: 100px; /* расстояние между колонками */
+}
+.center-block-text {
+  flex: 1; /* делим место поровну */
+  margin: 0;
+}
+.center-text {
+  color: var(--txt2, rgba(130, 138, 153, 1));
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.center-title {
+  max-width: 600px;
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  text-transform: uppercase;
+}
+.swiper-bg::before {
+  content: "";
+  position: relative;
+}
+.buttons-end {
+  display: block;
+}
 /* Адаптив */
 @media (max-width: 1700px) {
   html {
