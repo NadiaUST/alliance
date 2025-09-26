@@ -1049,6 +1049,15 @@ body {
   max-width: 200px;
   color: red;
 }
+.politics-text {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.map-image {
+  max-width: 100%;
+}
 /* Адаптив */
 @media (max-width: 1700px) {
   html {

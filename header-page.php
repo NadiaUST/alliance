@@ -161,7 +161,7 @@
       <!-- блок с кнопкой -->
     </nav>
     <!-- navigation -->
-    <section class="section about-company <?= $header_style;?>">
+    <section class="section about-company <?= $header_style;?> ">
       <div class="container">
         <div class="seporator seporator-two"></div>
         <h2 class="section-title"><?= $page_title ?></h2>

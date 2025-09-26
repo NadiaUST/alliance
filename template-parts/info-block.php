@@ -1,6 +1,6 @@
 <footer class="footer">
       <div class="container">
-        <div class="footer-top">
+        <div class="footer-top ">
           <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
           <div class="footer-info">
             <svg class="phone-icon" width="24" height="24" fill="#5C8EE6">
