@@ -131,7 +131,7 @@
             >
           </li>
           <li class="header-nav-item">
-            <a href="/own.php" class="header-nav-link"
+            <a href="/trademarks.php" class="header-nav-link"
               >Собственные торговые марки</a
             >
           </li>
