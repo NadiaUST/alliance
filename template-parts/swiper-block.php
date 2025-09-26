@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header <?= $header_margin?>" >
       <div class="container">
         <div class="swiper">
           <!-- Обложка слайдера -->
