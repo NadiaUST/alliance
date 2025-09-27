@@ -113,26 +113,26 @@
             <h2 class="footer-menu-title">Контрактное производство</h2>
             <ul class="footer-menu-list footer-menu-column-2">
               <li class="footer-menu-item">
-                <a href="/product-ag.php" class="footer-menu-link"
+                <a href="/autohim.php" class="footer-menu-link"
                   >Автомобильная химия</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Бытовая химия</a>
+                <a href="/autohim.php" class="footer-menu-link">Бытовая химия</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link"
+                <a href="/tech.php" class="footer-menu-link"
                   >Дезинфицирующие средства</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Пищевые аэрозоли</a>
+                <a href="/autohim.php" class="footer-menu-link">Пищевые аэрозоли</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Косметическая продукция</a>
+                <a href="/tech.php" class="footer-menu-link">Косметическая продукция</a>
               </li>
               <li class="footer-menu-item">
-                <a href="#" class="footer-menu-link">Краски аэрозольные</a>
+                <a href="/autohim.php" class="footer-menu-link">Краски аэрозольные</a>
               </li>
             </ul>
           </div>
@@ -142,12 +142,12 @@
             <h2 class="footer-menu-title">Собственные марки</h2>
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
-                <a href="/product-ag.php" class="footer-menu-link"
+                <a href="/tech.php" class="footer-menu-link"
                   >Автохимия AG-Tech</a
                 >
               </li>
               <li class="footer-menu-item">
-                <a href="/product.php" class="footer-menu-link"
+                <a href="/autohim.php" class="footer-menu-link"
                   >Автохимия AP</a
                 >
               </li>
@@ -166,7 +166,7 @@
               </li>
               <li class="footer-menu-item">
                 <a
-                  href="/blog-more.php"
+                  href="/news.php"
                   class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >

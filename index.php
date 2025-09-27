@@ -31,7 +31,7 @@
               <a class="mobile-submenu-link" href="/autohim.php">Бытовая химия</a>
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="/autohim.php"
+              <a class="mobile-submenu-link" href="/tech.php"
                 >Дезинфицирующие средства</a
               >
             </li>
@@ -39,7 +39,7 @@
               <a class="mobile-submenu-link" href="/autohim.php">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-sub-menu-item">
-              <a class="mobile-submenu-link" href="/autohim.php"
+              <a class="mobile-submenu-link" href="/tech.php"
                 >Косметическая продукция</a
               >
             </li>
