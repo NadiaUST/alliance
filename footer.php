@@ -166,7 +166,7 @@
               </li>
               <li class="footer-menu-item">
                 <a
-                  href="/news.php"
+                  href="/blog.php"
                   class="footer-menu-link footer-menu-link-bold"
                   >Новости</a
                 >

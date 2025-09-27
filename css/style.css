@@ -1090,6 +1090,68 @@ body {
 .map-image {
   max-width: 100%;
 }
+.more-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.more-icons {
+  max-width: 200px;
+}
+.more-block-text {
+  max-width: 960px;
+}
+.more-title {
+  color: var(--txt2, rgba(130, 138, 153, 1));
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.more-block-title {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49px;
+}
+.more-block-subtext {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.more-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.more-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.more-list-icon {
+  margin-right: 20px;
+}
+.swiper-title-dn {
+  display: none;
+}
+.more-subtitle {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 50px;
+}
+.more-num {
+  margin-right: 20px;
+  color: var(--main, rgba(92, 142, 230, 1));
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
 /* Адаптив */
 @media (max-width: 1700px) {
   html {

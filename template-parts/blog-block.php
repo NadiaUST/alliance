@@ -1,10 +1,5 @@
 <section class="section blog">
       <div class="container">
-        <div class="seporator"></div>
-        <!-- /.seporator -->
-        <h2 class="section-title">
-            <?= $block_title ?>
-        </h2>
         <!-- Slider main container -->
         <div class="swiper blog-slider">
           <!-- Additional required wrapper -->
@@ -57,7 +52,6 @@
             </a>
           </div>
           <div class="blog-slider-footer">
-            <a href="#" class="button-link">Весь блог</a>
             <!-- If we need navigation buttons -->
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">

@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'О компании';
+$page_title = 'Автохимия AG-Tech';
 $header_style = 'about-company';
 $swiper_color = 'swiper-color';
 $header_margin = 'header-margin';

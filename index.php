@@ -184,7 +184,8 @@
       <!-- Контейнер -->
     </header>
     <!-- header -->
-    <?php include_once('./template-parts/swiper-light-block.php');?>
+    <?php include_once('./template-parts/swiper-light-block.php');
+    $block_title = 'Блог экспертов в области производства';?>
     <?php include_once('./template-parts/production-block.php');?>
     <?php include_once('./template-parts/founder-block.php');?>
     <?php include_once('./template-parts/clients-block.php');?>
