@@ -1230,6 +1230,12 @@ body {
   .tech-image {
     background-image: url();
   }
+  .more-wrapper {
+    display: block;
+  }
+  .more-image {
+    width: 100%;
+  }
 }
 @media (max-width: 1200px) {
   .container {
@@ -1553,6 +1559,12 @@ body {
     list-style: none;
     padding: 0;
     columns: 1 auto;
+  }
+  .more-block-title {
+    font-size: 26px;
+  }
+  .more-block-subtext {
+    font-size: 14px;
   }
 }
 @media (max-width: 576px) {
