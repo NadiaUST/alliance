@@ -4,18 +4,26 @@
       <div class="more-icons">
         <h2 class="more-title">Поделиться:</h2>
         <div class="more-icon-block">
-          <svg class="button-icon" width="24" height="24">
-            <use href="img/sprite.svg#vk"></use>
+          <a href="https://vk.com/" class="more-link" target='_blank' >
+            <svg class="more-icon" width="24" height="24">
+            <use href="img/sprite.svg#vk">
+            </use>
           </svg>
-          <svg class="button-icon" width="24" height="24">
+          <a href="https://www.facebook.com/" class="more-link" target='_blank'>
+            <svg class="more-icon" width="24" height="24">
             <use href="img/sprite.svg#facebook"></use>
           </svg>
-          <svg class="button-icon" width="24" height="24">
+          </a>
+          <a href="https://x.com/" class="more-link" target='_blank'>
+            <svg class="more-icon" width="24" height="24">
             <use href="img/sprite.svg#twitter"></use>
           </svg>
-          <svg class="button-icon" width="24" height="24">
+          </a>
+          <a href="https://www.google.com/" class="more-link" target='_blank'>
+            <svg class="more-icon" width="24" height="24">
             <use href="img/sprite.svg#google"></use>
           </svg>
+          </a>
         </div>
         <!-- /.more-icon-block -->
       </div>

@@ -159,7 +159,7 @@
             <ul class="footer-menu-list">
               <li class="footer-menu-item">
                 <a
-                  href="/blog.php"
+                  href="/about.php"
                   class="footer-menu-link footer-menu-link-bold"
                   >О компании</a
                 >
