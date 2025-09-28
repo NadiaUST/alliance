@@ -1235,6 +1235,39 @@ body {
   line-height: 22px;
   pointer-events: none; /* активный элемент не кликается */
 }
+.section-error {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.error-title {
+  color: var(--main, rgba(92, 142, 230, 1));
+  font-family: "Bebas Neue";
+  font-size: 300px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.error-subtitle {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.error-text {
+  color: var(--txt, rgba(41, 45, 51, 1));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+.button {
+  text-decoration: none;
+  background: var(--main, rgba(92, 142, 230, 1));
+}
+.name-none {
+  display: none;
+}
 /* Адаптив */
 @media (max-width: 1700px) {
   html {

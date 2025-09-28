@@ -155,9 +155,9 @@
                 <ul class="pagination">
                   <li><a href="#" class="active">1</a></li>
                   <li><a href="/more.php">2</a></li>
-                  <li><a href="/more.php">3</a></li>
+                  <li><a href="/404.php">3</a></li>
                   <li><a href="/more.php">4</a></li>
-                  <li><a href="/more.php">5</a></li>
+                  <li><a href="/404.php">5</a></li>
                 </ul>
         </div>
       </div>

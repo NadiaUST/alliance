@@ -103,7 +103,7 @@
       <!-- /.mobile-icons -->
     </div>
     <!-- /.mobile-menu -->
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-light ">
       <!-- Мобильное меню -->
       <a href="#" class="mobile-menu-toggle">
         <div class="mobile-menu-line"></div>
@@ -161,7 +161,7 @@
       <!-- блок с кнопкой -->
     </nav>
     <!-- navigation -->
-    <section class="section about-company <?= $header_style;?> ">
+    <section class="section about-company <?= $header_style;?> <?= $name_none ?> ">
       <div class="container">
         <div class="seporator seporator-two"></div>
         <h2 class="section-title"><?= $page_title ?></h2>
