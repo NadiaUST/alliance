@@ -163,18 +163,23 @@
       <!-- блок с кнопкой -->
     </nav>
     <!-- navigation -->
-    <section class="section about-company <?= $header_style;?> <?= $name_none ?> ">
-      <div class="container">
+    <header class="section about-company <?= $header_style;?> <?= $bg_image; ?> ">
+      <div class="container <?= $title_color; ?>" >
         <div class="seporator seporator-two"></div>
-        <h2 class="section-title"><?= $page_title ?></h2>
+        <h2 class="section-title"><?= $page_title ?> </h2>
         <nav class="breadcrumbs" aria-label="Хлебные крошки">
-          <ol>
-            <li><a href="/">Главная</a></li>
-            <li class="current"><?= $page_title ?></li>
+          <ol class="breadcrumbs-list <?= $title_color; ?>">
+            <li ><a href="/">Главная</a></li>
+            <?php
+              // проверка заголовка страницы
+              if ($page_title == 'Современная методология разработки одухотворила всех причастных' || $page_title == 'Автохимия AG-Tech' || $page_title == 'Автомобильная химия') {
+                  echo ' ' . $breadcrumb;
+              } 
+              ?>
+            <li class="current "><?= $page_title ?></li>
           </ol>
         </nav>
-      </div>
+    </header>
       <!-- /.container -->
     </section>
     <!-- /.section about-company -->
-    

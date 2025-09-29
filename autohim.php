@@ -6,6 +6,7 @@ $header_margin = 'header-margin';
 $swiper_bg = 'swiper-bg';
 $buttons = 'buttons-end';
 $founder = 'founder-padding';
+$breadcrumb = ' <li ><a href="./contracts.php">Контрактное производство</a></li> ';
 include_once('header-page.php');
 include_once('./template-parts/autohim-block.php');
 include_once('./template-parts/swiper-block.php');
