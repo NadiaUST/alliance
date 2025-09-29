@@ -104,7 +104,7 @@
       <!-- /.mobile-icons -->
     </div>
     <!-- /.mobile-menu -->
-    <nav class="navbar navbar-light ">
+    <nav class="navbar navbar-light">
       <!-- Мобильное меню -->
       <a href="./" class="mobile-menu-toggle" aria-label="Открыть меню">
         <div class="mobile-menu-line"></div>
@@ -163,7 +163,7 @@
       <!-- блок с кнопкой -->
     </nav>
     <!-- navigation -->
-    <header class="section about-company <?= $header_style;?> <?= $bg_image; ?> ">
+    <header class="section about-company <?= $header_style;?> <?= $bg_image; ?> <?= $bg_tech ?> <?= $tech_image ?>">
       <div class="container <?= $title_color; ?>" >
         <div class="seporator seporator-two"></div>
         <h2 class="section-title"><?= $page_title ?> </h2>

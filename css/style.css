@@ -850,8 +850,8 @@ body {
 /* Страница about */
 .about-company {
   background-color: var(--bg2, rgba(240, 242, 245, 1));
-  padding: 60px 0;
-  margin-top: 90px;
+  padding: 70px 0;
+  margin-top: 70px;
 }
 .breadcrumbs ol {
   list-style: none;
@@ -912,6 +912,11 @@ body {
 
 .breadcrumbs-list.white {
   color: #fff; /* белый только для нужной страницы */
+}
+.tech-img {
+  background-image: url(../img/product-autohim.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 /* Модальное окно (прозрачное) */
@@ -1366,7 +1371,10 @@ body {
     font-size: 12px;
   }
   .tech-image {
-    background-image: url();
+    background-image: url(../img/blog-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .more-wrapper {
     display: block;
@@ -1647,6 +1655,9 @@ body {
   }
   .error-title {
     font-size: 200px;
+  }
+  .tech-img {
+    background-image: url();
   }
 }
 @media (max-width: 768px) {

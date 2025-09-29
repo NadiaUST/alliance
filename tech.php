@@ -6,6 +6,7 @@ $header_margin = 'header-margin';
 $swiper_bg = 'swiper-bg';
 $buttons = 'buttons-end';
 $breadcrumb = ' <li ><a href="./trademarks.php">Собственные торговые марки</a></li> ';
+$tech_image = 'tech-img';
 include_once('header-page.php');
 include_once('./template-parts/tech-block.php');
 include_once('./template-parts/swiper-block.php');
