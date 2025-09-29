@@ -3,11 +3,11 @@
         <!-- Slider main container -->
         <div class="blog-wrapper">
               <div class="blog-card">
-                <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image1.webp">
+                <source type="img/jpeg" srcset="img/image1.jpg">
+                <img src="img/image1.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -19,11 +19,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image"alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -33,11 +33,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -49,11 +49,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -63,11 +63,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -79,11 +79,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -93,11 +93,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -109,11 +109,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -123,11 +123,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -139,11 +139,11 @@
               </div>
               <!-- /.blog-card -->
               <div class="blog-card">
-                <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-image"
-              />
+                <picture class="blog-image"alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-image" alt="Image: blog">
+              </picture> 
               <h3 class="blog-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>

@@ -61,11 +61,11 @@
           <!-- /.founder-content -->
         </div>
         <!-- /.founder-content-wrapper -->
-         <img
-          src="./img/autohim2.png"
-          alt="Founder"
-          class="autohim-photo"
-        />
+         <picture class="autohim-photo" alt="Founder">
+                <source type="img/webp" srcset="img/autohim2.webp">
+                <source type="img/jpeg" srcset="img/autohim2.png">
+                <img src="img/autohim2.png" class="autohim-photo" alt="Founder">
+              </picture> 
       </div>
       <!-- /.container -->
     </section>

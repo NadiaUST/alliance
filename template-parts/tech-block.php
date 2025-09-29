@@ -1,11 +1,11 @@
 <section class="section expert">
       <div class="container">
         <div class="expert-image">
-          <img
-          src="./img/tech.png"
-          alt="expert"
-          class="expert-photo"
-        />
+        <picture class="expert-photo" alt="expert">
+          <source type="img/webp" srcset="img/tech.webp">
+          <source type="img/jpeg" srcset="img/tech.png">
+          <img src="img/tech.png" class="expert-photo" alt="expert">
+        </picture>
         </div>
         <!-- /.expert-image -->
         <div class="expert-content-wrapper">

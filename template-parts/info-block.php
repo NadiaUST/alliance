@@ -40,7 +40,11 @@
         </div>
         <!-- /.footer-top -->
          <div class="map">
-          <img src="./img/map.png" alt="" class="map-image">
+          <picture class="map-image" alt="Image: map">
+              <source type="img/webp" srcset="img/map.webp">
+              <source type="img/jpeg" srcset="img/map.png">
+              <img src="img/map.png" class="map-image" alt="Image: map">
+          </picture>
          </div>
       </div>
       <!-- /.container -->

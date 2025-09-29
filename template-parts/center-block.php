@@ -26,25 +26,25 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="#" class="swiper-slide blog-card <?= $swiper_bg ?>">
-              <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image" alt="Image: blog">
+                <source type="img/webp" srcset="img/image1.webp">
+                <source type="img/jpeg" srcset="img/image1.jpg">
+                <img src="img/image1.jpg" class="blog-card-image" alt="Image: blog">
+              </picture> 
             </a>
             <a href="#" class="swiper-slide blog-card <?= $swiper_bg ?>">
-              <img
-                src="img/blog/image2.jpg"
-                alt="Image: blog"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image" alt="Image: blog">
+                <source type="img/webp" srcset="img/image2.webp">
+                <source type="img/jpeg" srcset="img/image2.jpg">
+                <img src="img/image2.jpg" class="blog-card-image" alt="Image: blog">
+              </picture>
             </a>
             <a href="#" class="swiper-slide blog-card <?= $swiper_bg ?>">
-              <img
-                src="img/blog/image1.jpg"
-                alt="Image: blog"
-                class="blog-card-image"
-              />
+              <picture class="blog-card-image" alt="Image: blog">
+                <source type="img/webp" srcset="img/image1.webp">
+                <source type="img/jpeg" srcset="img/image1.jpg">
+                <img src="img/image1.jpg" class="blog-card-image" alt="Image: blog">
+              </picture>
             </a>
           </div>
           <div class="container">

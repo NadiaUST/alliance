@@ -1,10 +1,10 @@
 <section class="section founder">
       <div class="container">
-        <img
-          src="./img/founder-image.jpg"
-          alt="Founder"
-          class="founder-photo"
-        />
+        <picture class="founder-photo" alt="Founder">
+              <source type="img/webp" srcset="img/founder-image.webp">
+              <source type="img/jpeg" srcset="img/founder-image.jpg">
+              <img src="img/founder-image.jpg" class="founder-photo" alt="Founder">
+        </picture>
         <div class="founder-content-wrapper">
           <div class="founder-content">
             <div class="seporator"></div>

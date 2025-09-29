@@ -13,11 +13,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/avto-him.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture class="card-image" alt="Production">
+              <source type="img/webp" srcset="img/avto-him.webp">
+              <source type="img/jpeg" srcset="img/avto-him.png">
+              <img src="img/avto-him.png" class="card-image" alt="Production">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -28,11 +28,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/bit-him.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture>
+              <source type="image/webp" srcset="img/bit-him.webp">
+              <source type="image/jpeg" srcset="img/bit-him.png">
+              <img src="img/bit-him.png" class="card-image" alt="Production">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -43,11 +43,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/dezinfect.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture>
+              <source type="image/webp" srcset="img/dezinfect.webp">
+              <source type="image/jpeg" srcset="img/dezinfect.png">
+              <img src="img/dezinfect.png" class="card-image" alt="Production">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -58,11 +58,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/dezinfect.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture>
+              <source type="image/webp" srcset="img/dezinfect.webp">
+              <source type="image/jpeg" srcset="img/dezinfect.png">
+              <img src="img/dezinfect.png" class="card-image" alt="Production">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -72,11 +72,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/avto-him.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture>
+              <source type="image/webp" srcset="img/avto-him.webp">
+              <source type="image/jpeg" srcset="img/avto-him.png">
+              <img src="img/avto-him.png" class="card-image" alt="Production">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -87,11 +87,11 @@
               </p>
             </div>
             <!-- /.card-content -->
-            <img
-              src="img/production/bit-him.png"
-              alt="Production"
-              class="card-image"
-            />
+             <picture>
+              <source type="image/webp" srcset="img/bit-him.webp">
+              <source type="image/jpeg" srcset="img/bit-him.png">
+              <img src="img/bit-him.png" class="card-image" alt="Production">
+            </picture>
           </a>
         </div>
         <!-- /.cards -->

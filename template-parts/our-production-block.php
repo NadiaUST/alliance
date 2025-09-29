@@ -53,11 +53,11 @@
         </div>
         <!-- /.expert-content-wrapper -->
          <div class="expert-image">
-          <img
-          src="./img/our-production.png"
-          alt="expert"
-          class="expert-photo"
-        />
+          <picture class="expert-photo" alt="Production">
+              <source type="img/webp" srcset="img/our-production.webp">
+              <source type="img/jpeg" srcset="img/our-production.png">
+              <img src="img/our-production.png" class="expert-photo" alt="Production">
+            </picture>
         </div>
         <!-- /.expert-image -->
       </div>

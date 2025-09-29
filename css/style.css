@@ -357,7 +357,7 @@ body {
   line-height: 160%;
 }
 .steps-text {
-  color: rgba(130, 138, 153, 1);
+  color: rgb(38, 38, 39);
   font-size: 16px;
   font-weight: 400;
   line-height: 155%;
@@ -368,7 +368,7 @@ body {
 .button-link {
   display: flex;
   align-items: center;
-  color: rgba(92, 142, 230, 1);
+  color: rgb(29, 45, 73);
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -421,7 +421,7 @@ body {
 .card-text {
   font-size: 1rem;
   line-height: 160%;
-  color: #828a99;
+  color: #232324;
   margin-bottom: 320px;
   margin-top: 11px;
 }
@@ -472,7 +472,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828a99;
+  color: #232324;
   grid-area: text;
   margin-top: 10px;
 }
@@ -493,7 +493,6 @@ body {
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 40%;
   top: 0;
   height: 100%;
   object-fit: cover;
@@ -501,7 +500,7 @@ body {
 .autohim-photo {
   position: absolute;
   right: 0;
-  width: 40%;
+  width: 65%;
   top: 0;
   height: 100%;
   object-fit: cover;
@@ -517,7 +516,7 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
-  color: #828a99;
+  color: #494b4e;
   margin-bottom: 50px;
 }
 .founder-padding {
@@ -647,7 +646,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #828a99;
+  color: #3a3a3b;
   margin-top: 22px;
   margin-bottom: 40px;
   max-width: 640px;
@@ -679,7 +678,7 @@ body {
   left: 30px;
   font-weight: 400;
   font-size: 16px;
-  color: #828a99;
+  color: #2b2b2c;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
 }
 .input.is-invalid {
@@ -716,6 +715,7 @@ body {
 }
 .cta-form-button {
   flex-shrink: 0;
+  background: rgba(58, 113, 209, 1);
 }
 .notify {
   display: flex;
@@ -731,7 +731,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
-  color: #828a99;
+  color: #3c3d3f;
   margin: 0;
 }
 /* Footer */
@@ -800,7 +800,7 @@ body {
 }
 .footer-menu-link {
   text-decoration: none;
-  color: #828a99;
+  color: #3d3e3f;
   font-weight: 400;
   font-size: 1rem;
   line-height: 160%;
@@ -824,6 +824,9 @@ body {
   font-style: normal;
   color: #828a99;
 }
+.made-in span {
+  color: #3a3b3d;
+}
 .footer-wrapper,
 .footer-legal {
   display: flex;
@@ -837,7 +840,7 @@ body {
   font-weight: 400;
   line-height: 160%;
   font-size: 0.75rem;
-  color: inherit;
+  color: #424346;
 }
 /* Страница about */
 .about-company {
@@ -1650,7 +1653,9 @@ body {
   }
   .autohim-photo {
     position: relative;
-    width: 100%;
+    top: 0;
+    right: 0;
+    width: 65%;
     margin-bottom: 3.125rem;
   }
   .cta-form-footer {
@@ -1659,6 +1664,7 @@ body {
   }
   .cta-form-button {
     width: 100%;
+    background: rgba(58, 113, 209, 1);
   }
   .footer-bottom {
     flex-direction: column;

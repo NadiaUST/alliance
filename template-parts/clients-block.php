@@ -72,67 +72,67 @@
           <!-- /.clients-content -->
           <div class="clients-logo-list">
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+              <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
             <a href="#" class="clients-logo-item">
-              <img
-                src="img/bk.png"
-                alt="logo: burger king"
-                class="clients-logo"
-              />
+            <picture class="clients-logo" alt="logo: burger king">
+            <source type="img/webp" srcset="img/bk.webp">
+            <source type="img/jpeg" srcset="img/bk.png">
+            <img src="img/bk.png" class="clients-logo" alt="logo: burger king">
+          </picture>  
             </a>
           </div>
           <!-- /.clients-logo -->

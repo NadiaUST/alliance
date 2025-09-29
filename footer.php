@@ -1,6 +1,10 @@
     <section class="cta <?= $name_none ?>">
       <div class="bg-grey section-cta">
-        <img src="img/cta.png" alt="call to action" class="cta-image" />
+        <picture class="cta-image" alt="call to action">
+          <source type="img/webp" srcset="img/cta.webp">
+          <source type="img/jpeg" srcset="img/cta.png">
+          <img src="img/cta.png" class="cta-image" alt="call to action">
+        </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -86,17 +90,19 @@
           </div>
           <!-- /.footer-info -->
           <div class="footer-social">
-            <a href="https://vk.com" class="footer-social-link" target="_blank">
-              <svg class="icon" width="20" height="20">
+            <a href="https://vk.com" class="footer-social-link" alt="vk" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" width="20" height="20" ria-hidden="true" focusable="false">
                 <use href="img/sprite.svg#vk"></use>
               </svg>
             </a>
             <a
               href="https://www.instagram.com"
               class="footer-social-link"
+              alt="instagram"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              <svg class="icon" width="20" height="20">
+              <svg class="icon" width="20" height="20" ria-hidden="true" focusable="false">
                 <use href="img/sprite.svg#instagram"></use>
               </svg>
             </a>

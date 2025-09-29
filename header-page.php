@@ -85,7 +85,7 @@
       </div>
       <!-- /.mobile-info -->
       <div class="mobile-icons">
-        <a href="https://vk.com" class="mobile-icons-vk" target="_blank">
+        <a href="https://vk.com" class="mobile-icons-vk" target="_blank" aria-label="Мы в VK">
           <svg class="icon" width="20" height="20">
             <use href="img/sprite.svg#vk"></use>
           </svg>
@@ -93,6 +93,7 @@
         <a
           href="https://www.instagram.com"
           class="mobile-icons-instagram"
+          aria-label="Мы в instagram"
           target="_blank"
         >
           <svg class="icon" width="20" height="20">
@@ -105,12 +106,13 @@
     <!-- /.mobile-menu -->
     <nav class="navbar navbar-light ">
       <!-- Мобильное меню -->
-      <a href="#" class="mobile-menu-toggle">
+      <a href="./" class="mobile-menu-toggle" aria-label="Открыть меню">
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
       </a>
-      <a href="./" class="header-logo">
+      <a href="./" aria-label="Alliance Production — на главную" class="header-logo"  alt="Логотип">
+
         <svg class="logo-svg logo-light">
           <use href="img/sprite.svg#logo_light"></use>
         </svg>
