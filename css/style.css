@@ -188,7 +188,7 @@ body {
   letter-spacing: 1px;
   word-spacing: 1px;
   color: #fff;
-  background: rgba(92, 142, 230, 1);
+  background: rgb(51, 78, 124);
   padding: 20px 40px 20px 50px;
   border: none;
   font-size: 15px;
@@ -715,7 +715,6 @@ body {
 }
 .cta-form-button {
   flex-shrink: 0;
-  background: rgba(92, 142, 230, 1);
 }
 .notify {
   display: flex;
@@ -825,7 +824,9 @@ body {
   color: #828a99;
 }
 .made-in {
-  color: #828a99;
+  color: rgb(85, 81, 81);
+  font-size: 16px;
+  font-weight: 400;
 }
 .footer-wrapper,
 .footer-legal {
@@ -1266,7 +1267,7 @@ body {
 }
 .button {
   text-decoration: none;
-  background: var(--main, rgba(92, 142, 230, 1));
+  background: rgb(51, 99, 182);
 }
 .name-none {
   display: none;
