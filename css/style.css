@@ -61,9 +61,12 @@ body {
 .header {
   padding-top: 60px;
 }
+.no-webp .header-image {
+  background-image: url("../img/header-bg.jpg");
+}
 /* ставим фоновое изображение */
 .header-image {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -34px;
@@ -89,8 +92,11 @@ body {
 .tech-content {
   max-width: 720px;
 }
-.tech-image {
+.no-webp .tech-image {
   background-image: url("../img/tech-bg.png");
+}
+.tech-image {
+  background-image: url("../img/tech-bg.webp");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -900,8 +906,11 @@ body {
 .swiper-color {
   color: var(--txt, rgba(41, 45, 51, 1));
 }
+.no-webp .bg-image {
+  background-image: url("../img/blog-bg.jpg");
+}
 .bg-image {
-  background-image: url(../img/blog-bg.jpg);
+  background-image: url("../img/blog-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -913,8 +922,11 @@ body {
 .breadcrumbs-list.white {
   color: #fff; /* белый только для нужной страницы */
 }
+.no-webp .tech-img {
+  background-image: url("../img/product-autohim.png");
+}
 .tech-img {
-  background-image: url(../img/product-autohim.png);
+  background-image: url("../img/product-autohim.webp");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -1370,8 +1382,11 @@ body {
   .clients-list-item {
     font-size: 12px;
   }
+  .no-webp .tech-image {
+    background-image: url("../img/blog-bg.png");
+  }
   .tech-image {
-    background-image: url(../img/blog-bg.jpg);
+    background-image: url("../img/blog-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
