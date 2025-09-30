@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
+      rel="preconnect"
     />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+      <link rel="preload" href="/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="/css/swiper-bundle.min.css"></noscript>
+      <link rel="preload" href="/css/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="/css/normalize.css"></noscript>
     <script>
       /*! modernizr 3.6.0 (Custom Build) | MIT *
     * https://modernizr.com/download/?-webp-setclasses !*/
