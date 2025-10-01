@@ -1782,3 +1782,12 @@ body {
     line-height: 32px;
   }
 }
+@media (hover: hover) {
+  .card:hover .card-title {
+    color: #5c8ee6;
+  }
+
+  .card:hover {
+    border-color: #5c8ee6;
+  }
+}
