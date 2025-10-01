@@ -13,6 +13,7 @@
       <noscript><link rel="stylesheet" href="/css/swiper-bundle.min.css"></noscript>
       <link rel="preload" href="/css/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript><link rel="stylesheet" href="/css/normalize.css"></noscript>
+     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <script>
       /*! modernizr 3.6.0 (Custom Build) | MIT *
     * https://modernizr.com/download/?-webp-setclasses !*/
