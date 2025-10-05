@@ -494,7 +494,6 @@ body {
 }
 /* Секция founder */
 .founder {
-  min-height: 660px;
   position: relative;
 }
 .founder-photo {
@@ -1403,6 +1402,12 @@ body {
   .blog-wrapper > div {
     flex: 1 1 48%; /* два блока в ряд */
   }
+  .section-title {
+    font-size: 34px;
+  }
+  .founder-text {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 1200px) {
   .container {
@@ -1467,6 +1472,13 @@ body {
   }
   .about-image {
     display: none;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+  }
+  .founder-content {
+    max-width: 100rem;
   }
 }
 @media (max-width: 992px) {
@@ -1673,6 +1685,9 @@ body {
   }
   .tech-img {
     background-image: url();
+  }
+  .founder-content {
+    max-width: 100rem;
   }
 }
 @media (max-width: 768px) {
