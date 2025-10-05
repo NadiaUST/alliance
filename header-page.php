@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title><?= $page_title?> - Aliance Production</title>
   </head>
   <body>
