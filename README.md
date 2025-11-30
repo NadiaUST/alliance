@@ -1,18 +1,34 @@
-# Alliance — многостраничный сайт компании
+# Alliance — Multi-Page Company Website
 
-Учебный, но максимально приближенный к коммерческому проекту многостраничный сайт для условной компании **Alliance**.
+A multi-page corporate website built as a training but near-commercial project.  
+Includes several pages, reusable templates, and a clean, scalable file structure.
 
-## Что сделано
+## ⭐ Features
 
-- Главная страница + разделы: О компании, Контакты, Блог, Услуги и др.
-- Общий header/footer через PHP-шаблоны (`header-page.php`, `footer.php`).
-- Адаптивная верстка под мобильные, планшеты и десктопы.
-- Формы обратной связи (обработка на `handler.php`).
-- Чистая файловая структура: отдельные папки для `css`, `js`, `img`, `fonts`.
+- Fully structured multi-page layout
+- Reusable PHP templates (header + footer)
+- Responsive layout for mobile, tablet, and desktop
+- Multiple content pages:
+  - Home
+  - About
+  - Blog
+  - Contacts
+  - Services
+- Contact form (handled via `handler.php`)
+- Organized file structure (`css`, `js`, `img`, `fonts`)
 
-## Стек
+## 🛠 Tech Stack
 
-- HTML5
-- CSS3 (flex, grid, адаптив)
-- JavaScript (базовая интерактивность)
-- PHP (шаблоны страниц)
+- **HTML5**
+- **CSS3** (flexbox, grid, responsive layout)
+- **JavaScript**
+- **PHP** (template system for page components)
+
+## ✔ What I focused on
+
+- Clean and maintainable project structure  
+- Consistent design across all pages  
+- Reusable blocks to simplify scaling the website  
+- Mobile-friendly layout and typography  
+
+## 📂 Project Structure
