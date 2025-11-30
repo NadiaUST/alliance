@@ -9,6 +9,9 @@ The project includes several internal pages, reusable templates, a clean file st
 
 Main Page:
 ![Alliance](./img/screens/main-screen.png)
+![Alliance](./img/screens/product-screen.png)
+![Alliance](./img/screens/blog-screen.png)
+![Alliance](./img/screens/footer-screen.png)
 
 ---
 
