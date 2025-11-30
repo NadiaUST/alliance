@@ -1,34 +1,44 @@
-# Alliance — Multi-Page Company Website
+# Alliance — Multi-Page Corporate Website
 
-A multi-page corporate website built as a training but near-commercial project.  
-Includes several pages, reusable templates, and a clean, scalable file structure.
+A multi-page corporate website created as a training project, built close to a real commercial company website.  
+The project includes several internal pages, reusable templates, a clean file structure, and form handling in PHP.
 
-## ⭐ Features
+---
 
-- Fully structured multi-page layout
-- Reusable PHP templates (header + footer)
-- Responsive layout for mobile, tablet, and desktop
-- Multiple content pages:
-  - Home
-  - About
-  - Blog
-  - Contacts
-  - Services
-- Contact form (handled via `handler.php`)
-- Organized file structure (`css`, `js`, `img`, `fonts`)
+## 📸 Screenshots
+
+Main Page:
+![Alliance](./img/screens/main-screen.png)
+
+---
+
+## 🚀 Features
+
+- Multi-page layout (8+ internal pages)
+- Reusable header and footer templates
+- Adaptive and responsive layout
+- Clean file organization
+- Contact form with PHP handler
+- Semantic HTML structure
+
+---
 
 ## 🛠 Tech Stack
 
 - **HTML5**
-- **CSS3** (flexbox, grid, responsive layout)
+- **CSS3 / SCSS**
 - **JavaScript**
-- **PHP** (template system for page components)
+- **PHP** (simple form processing)
+- **BEM** methodology
 
-## ✔ What I focused on
+🎯 What I Focused On During Development
 
-- Clean and maintainable project structure  
-- Consistent design across all pages  
-- Reusable blocks to simplify scaling the website  
-- Mobile-friendly layout and typography  
+Building a structured multi-page layout
 
-## 📂 Project Structure
+Organizing templates for scalability
+
+Practicing clean CSS and BEM
+
+Creating a realistic project close to client work
+
+Improving layout quality and design consistency
